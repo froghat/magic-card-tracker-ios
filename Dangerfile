@@ -47,3 +47,9 @@ end
 # This lints all Swift files and leave comments in PR if 
 # there is any issue with linting
 swiftlint.lint_files inline_mode: true
+
+# xcov.report(  
+#     scheme: "MTG Card Tracker",
+#     project: "MTG Card Tracker.xcodeproj",
+#     minimum_coverage_percentage: 80.0
+#  )

@@ -1,4 +1,4 @@
-osx_image: xcode8.3
+osx_image: xcode9.2
 
 language: objective-c
 
@@ -12,7 +12,6 @@ before_install:
     - echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc
     - gem install bundler && bundle install
 
-script: "./fastlane/travis.sh"
+before_script: bundle exec danger
 
-notifications:
-  slack: froghat:rCrsbEuv9RqaqfTHQ46X9v1L
+script: "./fastlane/travis.sh"
