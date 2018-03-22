@@ -25,6 +25,10 @@ class MTG_Card_TrackerTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testExampleTwo() {
+        
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
