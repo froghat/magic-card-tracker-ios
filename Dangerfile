@@ -25,7 +25,7 @@ has_test_changes = !git.modified_files.grep(/MTG Card TrackerTests/).empty?
 
 # If changes are more than 10 lines of code, tests need to be updated too
 if has_app_changes && !has_test_changes && git.lines_of_code > 10
-  fail("Tests were not updated", sticky: false)
+  warn "Tests were not updated"
 end
 
 # Info.plist file shouldn't change often. Leave warning if it changes.
@@ -48,8 +48,8 @@ end
 # there is any issue with linting
 swiftlint.lint_files inline_mode: true
 
-# xcov.report(  
-#     scheme: "MTG Card Tracker",
-#     project: "MTG Card Tracker.xcodeproj",
-#     minimum_coverage_percentage: 80.0
-#  )
+xcov.report(  
+    scheme: "MTG Card Tracker",
+    project: "MTG Card Tracker.xcodeproj",
+    minimum_coverage_percentage: 80.0
+ )

@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Cocoapods gems
+gem "cocoapods"
+
 # Fastlane gems
 gem "fastlane"
 
