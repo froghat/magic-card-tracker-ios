@@ -23,7 +23,9 @@ platform :ios do
     desc "Description of what the lane does"
     lane :test do
         scan(
-            scheme: "MTG Card Tracker"
+            scheme: "MTG Card Tracker",
+            clean: true,
+            devices: ["iPhone X"]
         )
 
         swiftlint(
