@@ -10,22 +10,23 @@
 		15FC6D08B8B0C1B01E36CB7DA2C8F617 /* Pods-MTG Card TrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7708E433815659326A301BF6BB9F99 /* Pods-MTG Card TrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C2D53CC7A7B25056429CAE872C4525A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		344FBC85C35A5201573EBAB21D807874 /* Pods-MTG Card TrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 993AA56F95123E41341548112D9B85AC /* Pods-MTG Card TrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43529158DFC64DECD13B0AC8D9741EA8 /* XCTest-Gherkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D11C10752E36C684892F4845FB828B9 /* XCTest-Gherkin-dummy.m */; };
 		44DAF01F920E40A3A7C8A43B57C2C091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		563A7147B9F4F4AE305137DBFEE03B91 /* ClassHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6780F652D41DAE487EACA828B0881885 /* ClassHelperMethods.swift */; };
+		5AF230BB094D199E8B8DBF194A663B46 /* MatchedStringRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC86257CB9988CF005BB6BB3C0B66E /* MatchedStringRepresentable.swift */; };
 		6A8057ACD05E58C512BADC075FB34A35 /* Pods-MTG Card TrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087ADF92B33E6FD57BB8B3586E29346C /* Pods-MTG Card TrackerUITests-dummy.m */; };
-		6CA5C7B77FCB08932F565C4E33791801 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = C641FC77F36FCF59D10D190857219651 /* Step.swift */; };
 		6E5E52CCC0F30D3F297D4BAB22E0D70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		740CB7BD3EF5D7F267A655FB1FEB2E6E /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF83776F0128F6615E02036CC2A011 /* Step.swift */; };
 		811023D1EC141EE8E077B0D6D0D4D165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
-		8CE2D3372640F5B4EB3F3F35612C6E56 /* ClassHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F078A76B1DA2C0F61B8E540C29E1F1 /* ClassHelperMethods.swift */; };
-		963907E8F9E32016CE51AA27F53C4E99 /* XCTestCase+Gherkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97844FEE9316370DD90A0084BB79B74F /* XCTestCase+Gherkin.swift */; };
+		8CBEE6C41B4C10B1190C21DE6C7E4B27 /* StepDefiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BA16A5C586AC4D94CD085BD40C17D /* StepDefiner.swift */; };
+		8D487BF249966D5BB36BDFC2BEF42437 /* XCTest-Gherkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D38375E6DF0E0ADA2D9F761EFC0B03 /* XCTest-Gherkin-dummy.m */; };
 		A267BE91C8CAB748183A0FE2F62EFF7D /* Pods-MTG Card Tracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76C81CE910B9BD1D6318566C512FF2F /* Pods-MTG Card Tracker-dummy.m */; };
 		A88F20FA80E3AD2ED504F6661713A34C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
 		ADBB2B92271C6E71E9C4E3AA73E440F2 /* Pods-MTG Card TrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0719407A116D50D6F200D08B62B605 /* Pods-MTG Card TrackerTests-dummy.m */; };
-		B6A1460FCEE32C3E6DEF7E6FEC04A494 /* StringGherkinExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C24DF00D3289410FE9CC90B0C65522 /* StringGherkinExtension.swift */; };
+		D770B8F145BBC98CCC335E5118834AAE /* XCTestCase+Gherkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80E38C07B922F0229A344FEEB2723D /* XCTestCase+Gherkin.swift */; };
 		D95C03BE8B53DEF49F0C562FD0A65BE5 /* Pods-MTG Card Tracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A29A477E6285CD92F7D557DF18105279 /* Pods-MTG Card Tracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECD0EA0C915652368D33CAE69042DF7 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017258217B997DB90561D7827191D8F8 /* Example.swift */; };
-		E12C7A771CF85AB555602C4C00BC40FC /* StepDefiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20D7FA58117AB9D9A54BA9BD00855F /* StepDefiner.swift */; };
-		FBE18062BAAB8DEFD3517825EA3F46A3 /* XCTest-Gherkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59743957D104F9F57CD562DD2DD9EAB /* XCTest-Gherkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB187C5BB06E94DB2D3578568198E0A8 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B8F1FAA2DEAA932B7A9314AD96759 /* Example.swift */; };
+		FBE18062BAAB8DEFD3517825EA3F46A3 /* XCTest-Gherkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D161505035D779D52CB83E53CB398049 /* XCTest-Gherkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1CFE0B4A5AD80CE8FDBE1887723130 /* StringGherkinExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7251D4A85F248B79467A46A10C87CED /* StringGherkinExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,23 +40,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017258217B997DB90561D7827191D8F8 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Pod/Core/Example.swift; sourceTree = "<group>"; };
 		087ADF92B33E6FD57BB8B3586E29346C /* Pods-MTG Card TrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTG Card TrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		0E80E38C07B922F0229A344FEEB2723D /* XCTestCase+Gherkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+Gherkin.swift"; path = "Pod/Core/XCTestCase+Gherkin.swift"; sourceTree = "<group>"; };
 		0F7708E433815659326A301BF6BB9F99 /* Pods-MTG Card TrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTG Card TrackerUITests-umbrella.h"; sourceTree = "<group>"; };
 		12BD669145C34C7F926F5186728A96A2 /* Pods-MTG Card Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card Tracker.debug.xcconfig"; sourceTree = "<group>"; };
-		17292EAA4AF7EF9ED3EE76B61F45B711 /* XCTest-Gherkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "XCTest-Gherkin.modulemap"; sourceTree = "<group>"; };
 		1743125121B55BF8A87A8AA45CF263B0 /* Pods-MTG Card TrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTG Card TrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		221328F6BAB13DDC750CDFD5D6B4514C /* Pods_MTG_Card_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTG_Card_TrackerTests.framework; path = "Pods-MTG Card TrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D11C10752E36C684892F4845FB828B9 /* XCTest-Gherkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTest-Gherkin-dummy.m"; sourceTree = "<group>"; };
+		2941935E3F28A0D0510848AA0535F964 /* XCTest-Gherkin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTest-Gherkin-prefix.pch"; sourceTree = "<group>"; };
 		3E891E111E4E0AE620D60FC595630C8A /* Pods-MTG Card Tracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTG Card Tracker-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		48F078A76B1DA2C0F61B8E540C29E1F1 /* ClassHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassHelperMethods.swift; path = Pod/Core/ClassHelperMethods.swift; sourceTree = "<group>"; };
+		489B8F1FAA2DEAA932B7A9314AD96759 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Pod/Core/Example.swift; sourceTree = "<group>"; };
 		4CA898FAF4A9EC30B561650A86657CA3 /* Pods-MTG Card Tracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTG Card Tracker.modulemap"; sourceTree = "<group>"; };
 		506075C341694DBC525A30E48B63FC12 /* Pods_MTG_Card_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTG_Card_Tracker.framework; path = "Pods-MTG Card Tracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CF83776F0128F6615E02036CC2A011 /* Step.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Step.swift; path = Pod/Core/Step.swift; sourceTree = "<group>"; };
 		542EC2B4287314DFD13048D7D8466C46 /* Pods-MTG Card TrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTG Card TrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AD63792F4F06181C321FBB540430218 /* XCTest-Gherkin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XCTest-Gherkin.xcconfig"; sourceTree = "<group>"; };
 		5C3F7003DEDAA830F140BB7470F328C7 /* Pods-MTG Card TrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTG Card TrackerTests.modulemap"; sourceTree = "<group>"; };
 		6114A5493B19F33AD0E60020E31F6BB7 /* Pods-MTG Card TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		68C24DF00D3289410FE9CC90B0C65522 /* StringGherkinExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringGherkinExtension.swift; path = Pod/Core/StringGherkinExtension.swift; sourceTree = "<group>"; };
+		6780F652D41DAE487EACA828B0881885 /* ClassHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassHelperMethods.swift; path = Pod/Core/ClassHelperMethods.swift; sourceTree = "<group>"; };
 		6A4000A06C553EEFB5FD931F68FAFFE1 /* Pods-MTG Card TrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTG Card TrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		764E2CF39BCCAB6A83C9AA82673A8A0B /* Pods-MTG Card Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		76C28D990546919EB1BF58E7D702EDA7 /* Pods-MTG Card TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,26 +68,26 @@
 		8D0719407A116D50D6F200D08B62B605 /* Pods-MTG Card TrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTG Card TrackerTests-dummy.m"; sourceTree = "<group>"; };
 		8DABD0E24DC454E3B49EB91495776026 /* Pods-MTG Card TrackerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTG Card TrackerTests-frameworks.sh"; sourceTree = "<group>"; };
 		8F145D9ED5F42EC8320B682FAA9DB88D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD033098CF5958F06E180A21F79891B /* XCTest-Gherkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "XCTest-Gherkin.modulemap"; sourceTree = "<group>"; };
+		8FEC86257CB9988CF005BB6BB3C0B66E /* MatchedStringRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchedStringRepresentable.swift; path = Pod/Core/MatchedStringRepresentable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97844FEE9316370DD90A0084BB79B74F /* XCTestCase+Gherkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+Gherkin.swift"; path = "Pod/Core/XCTestCase+Gherkin.swift"; sourceTree = "<group>"; };
 		993AA56F95123E41341548112D9B85AC /* Pods-MTG Card TrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTG Card TrackerTests-umbrella.h"; sourceTree = "<group>"; };
-		99CE5E6F541F04CA6BEF93644908C350 /* XCTest-Gherkin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTest-Gherkin-prefix.pch"; sourceTree = "<group>"; };
 		9B276F613A6F7E15EC22C646E1FF86FD /* XCTest_Gherkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCTest_Gherkin.framework; path = "XCTest-Gherkin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0CA6FA83BF17991BCEE76AA46D1E45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29A477E6285CD92F7D557DF18105279 /* Pods-MTG Card Tracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTG Card Tracker-umbrella.h"; sourceTree = "<group>"; };
 		A2B9D33D508C33524C9E58B7DDDAD96E /* Pods-MTG Card Tracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTG Card Tracker-resources.sh"; sourceTree = "<group>"; };
-		AE20D7FA58117AB9D9A54BA9BD00855F /* StepDefiner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepDefiner.swift; path = Pod/Core/StepDefiner.swift; sourceTree = "<group>"; };
-		AF5B237C03087D1BDC5E1A3B5477730A /* XCTest-Gherkin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XCTest-Gherkin.xcconfig"; sourceTree = "<group>"; };
+		A46BA16A5C586AC4D94CD085BD40C17D /* StepDefiner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepDefiner.swift; path = Pod/Core/StepDefiner.swift; sourceTree = "<group>"; };
+		A7251D4A85F248B79467A46A10C87CED /* StringGherkinExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringGherkinExtension.swift; path = Pod/Core/StringGherkinExtension.swift; sourceTree = "<group>"; };
 		B2D0F9D55D6836517EF2DDD597A171ED /* Pods-MTG Card TrackerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTG Card TrackerUITests-resources.sh"; sourceTree = "<group>"; };
 		B5A4445AB52472D4F2CB8F740FE1D7DE /* Pods_MTG_Card_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTG_Card_TrackerUITests.framework; path = "Pods-MTG Card TrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75F10F32763B8B60EC9AA7B11EE7C2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C979AAA1E655456D558191EA16A84D /* Pods-MTG Card TrackerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTG Card TrackerTests-resources.sh"; sourceTree = "<group>"; };
 		C54015E63B5027C9ED4A317E3E1B495B /* Pods-MTG Card TrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTG Card TrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C59743957D104F9F57CD562DD2DD9EAB /* XCTest-Gherkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTest-Gherkin-umbrella.h"; sourceTree = "<group>"; };
-		C641FC77F36FCF59D10D190857219651 /* Step.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Step.swift; path = Pod/Core/Step.swift; sourceTree = "<group>"; };
+		D161505035D779D52CB83E53CB398049 /* XCTest-Gherkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTest-Gherkin-umbrella.h"; sourceTree = "<group>"; };
 		D76C81CE910B9BD1D6318566C512FF2F /* Pods-MTG Card Tracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTG Card Tracker-dummy.m"; sourceTree = "<group>"; };
+		D9109A891CEC843B2811B0ECF4E8E855 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBAAF76126E4911ACFD29B147CDBC9C0 /* Pods-MTG Card TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7D38375E6DF0E0ADA2D9F761EFC0B03 /* XCTest-Gherkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTest-Gherkin-dummy.m"; sourceTree = "<group>"; };
 		F0F710366908C94F727FF94D1BA3D025 /* Pods-MTG Card Tracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTG Card Tracker-acknowledgements.plist"; sourceTree = "<group>"; };
 		F7928117A606E8771DE76364D039BDF1 /* Pods-MTG Card TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTG Card TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,16 +183,6 @@
 			path = "Target Support Files/Pods-MTG Card TrackerUITests";
 			sourceTree = "<group>";
 		};
-		34EEE04ADC1A867CA9E3ACC3ED9D592F /* XCTest-Gherkin */ = {
-			isa = PBXGroup;
-			children = (
-				B7714F020D85C958FBDD8EEFC9376B73 /* Core */,
-				B0DD2FE910DFCB4AA8486C2B5333BC8A /* Support Files */,
-			);
-			name = "XCTest-Gherkin";
-			path = "XCTest-Gherkin";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,36 +225,9 @@
 		AAE7B59EB0798C36588825FEFF48D587 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34EEE04ADC1A867CA9E3ACC3ED9D592F /* XCTest-Gherkin */,
+				E45CB7B0320BB7CCA7B7768EAB4641B5 /* XCTest-Gherkin */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B0DD2FE910DFCB4AA8486C2B5333BC8A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B75F10F32763B8B60EC9AA7B11EE7C2D /* Info.plist */,
-				17292EAA4AF7EF9ED3EE76B61F45B711 /* XCTest-Gherkin.modulemap */,
-				AF5B237C03087D1BDC5E1A3B5477730A /* XCTest-Gherkin.xcconfig */,
-				3D11C10752E36C684892F4845FB828B9 /* XCTest-Gherkin-dummy.m */,
-				99CE5E6F541F04CA6BEF93644908C350 /* XCTest-Gherkin-prefix.pch */,
-				C59743957D104F9F57CD562DD2DD9EAB /* XCTest-Gherkin-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/XCTest-Gherkin";
-			sourceTree = "<group>";
-		};
-		B7714F020D85C958FBDD8EEFC9376B73 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				48F078A76B1DA2C0F61B8E540C29E1F1 /* ClassHelperMethods.swift */,
-				017258217B997DB90561D7827191D8F8 /* Example.swift */,
-				C641FC77F36FCF59D10D190857219651 /* Step.swift */,
-				AE20D7FA58117AB9D9A54BA9BD00855F /* StepDefiner.swift */,
-				68C24DF00D3289410FE9CC90B0C65522 /* StringGherkinExtension.swift */,
-				97844FEE9316370DD90A0084BB79B74F /* XCTestCase+Gherkin.swift */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		CDF14A3FD078333139E94F36EDC9D5BE /* Targets Support Files */ = {
@@ -273,6 +238,44 @@
 				34012DA1E27DF0D6C73C09428506B261 /* Pods-MTG Card TrackerUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E45CB7B0320BB7CCA7B7768EAB4641B5 /* XCTest-Gherkin */ = {
+			isa = PBXGroup;
+			children = (
+				FF8BF10FACEDFBAC40C9850AB092E23C /* Core */,
+				EDF1B90587A5530CF28D8443D7A300D6 /* Support Files */,
+			);
+			name = "XCTest-Gherkin";
+			path = "XCTest-Gherkin";
+			sourceTree = "<group>";
+		};
+		EDF1B90587A5530CF28D8443D7A300D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9109A891CEC843B2811B0ECF4E8E855 /* Info.plist */,
+				8FD033098CF5958F06E180A21F79891B /* XCTest-Gherkin.modulemap */,
+				5AD63792F4F06181C321FBB540430218 /* XCTest-Gherkin.xcconfig */,
+				E7D38375E6DF0E0ADA2D9F761EFC0B03 /* XCTest-Gherkin-dummy.m */,
+				2941935E3F28A0D0510848AA0535F964 /* XCTest-Gherkin-prefix.pch */,
+				D161505035D779D52CB83E53CB398049 /* XCTest-Gherkin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCTest-Gherkin";
+			sourceTree = "<group>";
+		};
+		FF8BF10FACEDFBAC40C9850AB092E23C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6780F652D41DAE487EACA828B0881885 /* ClassHelperMethods.swift */,
+				489B8F1FAA2DEAA932B7A9314AD96759 /* Example.swift */,
+				8FEC86257CB9988CF005BB6BB3C0B66E /* MatchedStringRepresentable.swift */,
+				51CF83776F0128F6615E02036CC2A011 /* Step.swift */,
+				A46BA16A5C586AC4D94CD085BD40C17D /* StepDefiner.swift */,
+				A7251D4A85F248B79467A46A10C87CED /* StringGherkinExtension.swift */,
+				0E80E38C07B922F0229A344FEEB2723D /* XCTestCase+Gherkin.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39AC48F8E09BCF6CEA984D7F48E80AA1 /* Build configuration list for PBXNativeTarget "XCTest-Gherkin" */;
 			buildPhases = (
-				3AE6D0B5DF33A9A8104ED4C5A5E885F2 /* Sources */,
+				4F5912ED819C61883388FA1A15726DAC /* Sources */,
 				55874A6A36C0F67840D6261491618CEA /* Frameworks */,
 				52148FDE707E787D365DF7865E888895 /* Headers */,
 			);
@@ -420,17 +423,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AE6D0B5DF33A9A8104ED4C5A5E885F2 /* Sources */ = {
+		4F5912ED819C61883388FA1A15726DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE2D3372640F5B4EB3F3F35612C6E56 /* ClassHelperMethods.swift in Sources */,
-				DECD0EA0C915652368D33CAE69042DF7 /* Example.swift in Sources */,
-				6CA5C7B77FCB08932F565C4E33791801 /* Step.swift in Sources */,
-				E12C7A771CF85AB555602C4C00BC40FC /* StepDefiner.swift in Sources */,
-				B6A1460FCEE32C3E6DEF7E6FEC04A494 /* StringGherkinExtension.swift in Sources */,
-				43529158DFC64DECD13B0AC8D9741EA8 /* XCTest-Gherkin-dummy.m in Sources */,
-				963907E8F9E32016CE51AA27F53C4E99 /* XCTestCase+Gherkin.swift in Sources */,
+				563A7147B9F4F4AE305137DBFEE03B91 /* ClassHelperMethods.swift in Sources */,
+				DB187C5BB06E94DB2D3578568198E0A8 /* Example.swift in Sources */,
+				5AF230BB094D199E8B8DBF194A663B46 /* MatchedStringRepresentable.swift in Sources */,
+				740CB7BD3EF5D7F267A655FB1FEB2E6E /* Step.swift in Sources */,
+				8CBEE6C41B4C10B1190C21DE6C7E4B27 /* StepDefiner.swift in Sources */,
+				FC1CFE0B4A5AD80CE8FDBE1887723130 /* StringGherkinExtension.swift in Sources */,
+				8D487BF249966D5BB36BDFC2BEF42437 /* XCTest-Gherkin-dummy.m in Sources */,
+				D770B8F145BBC98CCC335E5118834AAE /* XCTestCase+Gherkin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +633,7 @@
 		};
 		6276AA3F221C4477663D4228BA9CC389 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF5B237C03087D1BDC5E1A3B5477730A /* XCTest-Gherkin.xcconfig */;
+			baseConfigurationReference = 5AD63792F4F06181C321FBB540430218 /* XCTest-Gherkin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,7 +664,7 @@
 		};
 		6727330A46430A2BF36FEF1DAA7B50AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF5B237C03087D1BDC5E1A3B5477730A /* XCTest-Gherkin.xcconfig */;
+			baseConfigurationReference = 5AD63792F4F06181C321FBB540430218 /* XCTest-Gherkin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

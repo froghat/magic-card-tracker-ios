@@ -20,27 +20,12 @@ import Foundation
  - parameter baseClass: The base type to match against
  - returns: An array of T, where T is a subclass of `baseClass`
 */
-public func allSubclassesOf<T>(_ baseClass: T, excludingBundles blackList: [Bundle]) -> [T] {
+public func allSubclassesOf<T>(_ baseClass: T) -> [T] {
     var matches: [T] = []
 
-    // Get all the classes which implement 'baseClass' and return them
-    // Helped by code from https://gist.github.com/bnickel/410a1bdc02f12fbd9b5e
-    let expectedClassCount = objc_getClassList(nil, 0)
-    let allClasses = UnsafeMutablePointer<AnyClass?>.allocate(capacity: Int(expectedClassCount))
-    let autoreleasingAllClasses = AutoreleasingUnsafeMutablePointer<AnyClass?>(allClasses) // Huh? We should have gotten this for free.
-    let actualClassCount = objc_getClassList(autoreleasingAllClasses, expectedClassCount)
+    for currentClass in allClasses() {
 
-    for i in 0..<actualClassCount {
-
-        guard let currentClass = allClasses[Int(i)] else {
-            continue
-        }
-
-        guard class_getSuperclass(currentClass) != nil else {
-            continue
-        }
-
-        guard !blackList.contains(Bundle(for: currentClass)) else {
+        guard class_getRootSuperclass(currentClass) == NSObject.self else {
             continue
         }
 
@@ -49,7 +34,36 @@ public func allSubclassesOf<T>(_ baseClass: T, excludingBundles blackList: [Bund
         }
     }
 
-    allClasses.deallocate(capacity: Int(expectedClassCount))
-    
     return matches
+}
+
+fileprivate func class_getRootSuperclass(_ type: AnyObject.Type) -> AnyObject.Type {
+    guard let superclass = class_getSuperclass(type) else { return type }
+
+    return class_getRootSuperclass(superclass)
+}
+
+fileprivate func allClasses() -> [AnyClass] {
+    // Get an approximate amount of classes we are going to need space for.
+    // Double it, just to make sure if it returns more we can still accomodate them all
+    let expectedClassCount = objc_getClassList(nil, 0) * 2
+
+    let allClasses = UnsafeMutablePointer<AnyClass>.allocate(capacity: Int(expectedClassCount))
+    let autoreleasingAllClasses = AutoreleasingUnsafeMutablePointer<AnyClass>(allClasses)  // Huh? We should have gotten this for free.
+    let actualClassCount = objc_getClassList(autoreleasingAllClasses, expectedClassCount)
+
+    // Take care of the stunningly rare situation where we get more classes back than we have allocated,
+    // remembering that we have allocated more than we were told to, to take case of the unexpected case
+    // where we recieve more classes than we were told we were going to three lines previously. #paranoid #safe
+    let count = min(actualClassCount, expectedClassCount)
+
+    var classes = [AnyClass]()
+    for i in 0 ..< count {
+        let currentClass: AnyClass = allClasses[Int(i)]
+        classes.append(currentClass)
+    }
+
+    allClasses.deallocate(capacity: Int(expectedClassCount))
+
+    return classes
 }
