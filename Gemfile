@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
-gem "danger"
+# Fastlane gems
 gem "fastlane"
-gem 'danger-swiftlint'
+
+# Danger Gems
+gem "danger"
+gem "danger-swiftlint"
+gem "danger-xcov"
