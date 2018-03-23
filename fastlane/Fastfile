@@ -22,7 +22,7 @@ platform :ios do
     
     desc "Description of what the lane does"
     lane :test do
-        scan
+        scan(code_coverage: true)
 
         swiftlint(
             mode: :lint,                            # SwiftLint mode: :lint (default) or :autocorrect
