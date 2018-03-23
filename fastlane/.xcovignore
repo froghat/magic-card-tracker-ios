@@ -1,0 +1,6 @@
+# Exclude view files
+- .*View.swift
+
+# Exclude dependencies
+- Carthage/Checkouts
+- Pods

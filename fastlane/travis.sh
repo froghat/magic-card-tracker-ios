@@ -1,6 +1,7 @@
 #!/bin/sh
 if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
     fastlane test --verbose
+    bundle exec danger
     exit $?
 fi
 

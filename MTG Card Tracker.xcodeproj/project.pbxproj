@@ -14,6 +14,9 @@
 		85C4CB6520634E7C00293452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C4CB6320634E7C00293452 /* LaunchScreen.storyboard */; };
 		85C4CB7020634E7C00293452 /* MTG_Card_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C4CB6F20634E7C00293452 /* MTG_Card_TrackerTests.swift */; };
 		85C4CB7B20634E7C00293452 /* MTG_Card_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C4CB7A20634E7C00293452 /* MTG_Card_TrackerUITests.swift */; };
+		8E5AAC325784CB2F853506AE /* Pods_MTG_Card_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23420813EA40372C95B5CF6 /* Pods_MTG_Card_TrackerUITests.framework */; };
+		AAF52FAE90BC4F2E84A40C8C /* Pods_MTG_Card_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC8E3E38A4AF1560549823D /* Pods_MTG_Card_Tracker.framework */; };
+		BA1857B16D2493F8A90B89C7 /* Pods_MTG_Card_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF604103CBBFC20370D4DBE /* Pods_MTG_Card_TrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF604103CBBFC20370D4DBE /* Pods_MTG_Card_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_Card_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		562F1E1573CF363E2D205F0D /* Pods-MTG Card TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card TrackerTests/Pods-MTG Card TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63C24E61A9B9BB514AE39629 /* Pods-MTG Card Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card Tracker/Pods-MTG Card Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		85C4CB5720634E7C00293452 /* MTG Card Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG Card Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C4CB5A20634E7C00293452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85C4CB5C20634E7C00293452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		85C4CB7620634E7C00293452 /* MTG Card TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTG Card TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C4CB7A20634E7C00293452 /* MTG_Card_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_Card_TrackerUITests.swift; sourceTree = "<group>"; };
 		85C4CB7C20634E7C00293452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9809A59F22E1AE2B68DB0296 /* Pods-MTG Card Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card Tracker/Pods-MTG Card Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		990AD9E43546EED856A8F20E /* Pods-MTG Card TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card TrackerUITests/Pods-MTG Card TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1BE42949FAB1AC40DFDBE12 /* Pods-MTG Card TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card TrackerUITests/Pods-MTG Card TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23420813EA40372C95B5CF6 /* Pods_MTG_Card_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_Card_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C600DEDDD04783AE9F2A7A1B /* Pods-MTG Card TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG Card TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTG Card TrackerTests/Pods-MTG Card TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC8E3E38A4AF1560549823D /* Pods_MTG_Card_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_Card_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF52FAE90BC4F2E84A40C8C /* Pods_MTG_Card_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1857B16D2493F8A90B89C7 /* Pods_MTG_Card_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5AAC325784CB2F853506AE /* Pods_MTG_Card_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70458FB2BD7CBB852E31F23F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9809A59F22E1AE2B68DB0296 /* Pods-MTG Card Tracker.debug.xcconfig */,
+				63C24E61A9B9BB514AE39629 /* Pods-MTG Card Tracker.release.xcconfig */,
+				562F1E1573CF363E2D205F0D /* Pods-MTG Card TrackerTests.debug.xcconfig */,
+				C600DEDDD04783AE9F2A7A1B /* Pods-MTG Card TrackerTests.release.xcconfig */,
+				B1BE42949FAB1AC40DFDBE12 /* Pods-MTG Card TrackerUITests.debug.xcconfig */,
+				990AD9E43546EED856A8F20E /* Pods-MTG Card TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7881158C8AB912EF8685A642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8E3E38A4AF1560549823D /* Pods_MTG_Card_Tracker.framework */,
+				1CF604103CBBFC20370D4DBE /* Pods_MTG_Card_TrackerTests.framework */,
+				B23420813EA40372C95B5CF6 /* Pods_MTG_Card_TrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85C4CB4E20634E7C00293452 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				85C4CB6E20634E7C00293452 /* MTG Card TrackerTests */,
 				85C4CB7920634E7C00293452 /* MTG Card TrackerUITests */,
 				85C4CB5820634E7C00293452 /* Products */,
+				70458FB2BD7CBB852E31F23F /* Pods */,
+				7881158C8AB912EF8685A642 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85C4CB7F20634E7C00293452 /* Build configuration list for PBXNativeTarget "MTG Card Tracker" */;
 			buildPhases = (
+				D1075BDB4E89C1E76F9E3DCC /* [CP] Check Pods Manifest.lock */,
 				85C4CB5320634E7C00293452 /* Sources */,
 				85C4CB5420634E7C00293452 /* Frameworks */,
 				85C4CB5520634E7C00293452 /* Resources */,
+				A80E5DCE4B5DD1EFA60AC7A5 /* [CP] Embed Pods Frameworks */,
+				30F1DBD0FCAB0ED0535D6232 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85C4CB8220634E7C00293452 /* Build configuration list for PBXNativeTarget "MTG Card TrackerTests" */;
 			buildPhases = (
+				8629C8B4DBCB6C8303507FB0 /* [CP] Check Pods Manifest.lock */,
 				85C4CB6720634E7C00293452 /* Sources */,
 				85C4CB6820634E7C00293452 /* Frameworks */,
 				85C4CB6920634E7C00293452 /* Resources */,
+				F3D5DE208293C3B7AB81DC67 /* [CP] Embed Pods Frameworks */,
+				D475C00EF458A5560DD964F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85C4CB8520634E7C00293452 /* Build configuration list for PBXNativeTarget "MTG Card TrackerUITests" */;
 			buildPhases = (
+				B352A6E8956732DB3DE864AF /* [CP] Check Pods Manifest.lock */,
 				85C4CB7220634E7C00293452 /* Sources */,
 				85C4CB7320634E7C00293452 /* Frameworks */,
 				85C4CB7420634E7C00293452 /* Resources */,
+				5E4BCFC71887DE35C7FC0CEF /* [CP] Embed Pods Frameworks */,
+				70A1133BFA1D1AAC59C56D0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F1DBD0FCAB0ED0535D6232 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card Tracker/Pods-MTG Card Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4BCFC71887DE35C7FC0CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card TrackerUITests/Pods-MTG Card TrackerUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XCTest-Gherkin/XCTest_Gherkin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCTest_Gherkin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card TrackerUITests/Pods-MTG Card TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A1133BFA1D1AAC59C56D0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card TrackerUITests/Pods-MTG Card TrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8629C8B4DBCB6C8303507FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG Card TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80E5DCE4B5DD1EFA60AC7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card Tracker/Pods-MTG Card Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B352A6E8956732DB3DE864AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG Card TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1075BDB4E89C1E76F9E3DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG Card Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D475C00EF458A5560DD964F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card TrackerTests/Pods-MTG Card TrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D5DE208293C3B7AB81DC67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTG Card TrackerTests/Pods-MTG Card TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85C4CB5320634E7C00293452 /* Sources */ = {
@@ -424,7 +623,9 @@
 		};
 		85C4CB8020634E7C00293452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9809A59F22E1AE2B68DB0296 /* Pods-MTG Card Tracker.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
@@ -439,7 +640,9 @@
 		};
 		85C4CB8120634E7C00293452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C24E61A9B9BB514AE39629 /* Pods-MTG Card Tracker.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
@@ -454,8 +657,9 @@
 		};
 		85C4CB8320634E7C00293452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562F1E1573CF363E2D205F0D /* Pods-MTG Card TrackerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
@@ -471,8 +675,9 @@
 		};
 		85C4CB8420634E7C00293452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C600DEDDD04783AE9F2A7A1B /* Pods-MTG Card TrackerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
@@ -488,8 +693,9 @@
 		};
 		85C4CB8620634E7C00293452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE42949FAB1AC40DFDBE12 /* Pods-MTG Card TrackerUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
 				INFOPLIST_FILE = "MTG Card TrackerUITests/Info.plist";
@@ -504,8 +710,9 @@
 		};
 		85C4CB8720634E7C00293452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990AD9E43546EED856A8F20E /* Pods-MTG Card TrackerUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTE53VW5CQ;
 				INFOPLIST_FILE = "MTG Card TrackerUITests/Info.plist";
