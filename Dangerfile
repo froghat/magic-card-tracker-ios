@@ -51,5 +51,6 @@ swiftlint.lint_files inline_mode: true
 xcov.report(  
     scheme: "MTG Card Tracker",
     workspace: "MTG Card Tracker.xcworkspace",
+    only_project_targets: true,
     minimum_coverage_percentage: 80.0
  )
